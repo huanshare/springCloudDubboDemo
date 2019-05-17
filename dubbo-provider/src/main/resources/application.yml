@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: huanshare-dubbo-provider1
+  dubbo:
+    application:
+      name: provider
+    server: true
+    registry:
+      address: zookeeper://127.0.0.1:2181
+    protocol:
+      name: dubbo
+      port: 20882
+server:
+  port: 9090
